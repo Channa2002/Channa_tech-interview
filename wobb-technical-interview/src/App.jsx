@@ -66,6 +66,7 @@ function AskQuestion() {
   };
 
   return (
+    
     <div className="p-4">
       <h1 className="text-2xl font-bold">Ask a Question</h1>
       <form onSubmit={handleSubmit} className="flex flex-col">
@@ -78,6 +79,7 @@ function AskQuestion() {
 }
 
 function App() {
+
   return (
     <Router>
       <Routes>
